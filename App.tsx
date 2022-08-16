@@ -11,7 +11,7 @@ import {
 } from '@expo-google-fonts/poppins'
 
 import theme from './src/global/styles/theme'
-import { Dashboard } from './src/pages/Dashboard';
+import { Dashboard } from './src/screens/Dashboard';
 
 export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
